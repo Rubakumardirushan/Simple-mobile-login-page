@@ -18,8 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onsubmit(View view){
+         EditText pass =findViewById(R.id.editTextTextPassword);
         EditText user=findViewById(R.id.editTextTextPersonName2);
-        EditText pass =findViewById(R.id.editTextTextPassword);
+       
         TextView text=findViewById(R.id.textView2);
         text.setText("hello "+user.getText().toString()+" login complete");
     }
